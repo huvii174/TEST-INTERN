@@ -58,8 +58,8 @@ public class BFS
 
     public static void main(String arg[])
     {
-        BFS bfsExample = new BFS();
-        bfsExample.knightMoves(1,1,7,7);
+        BFS board = new BFS();
+        board.knightMoves(1,1,7,7);
 
     }
 }
