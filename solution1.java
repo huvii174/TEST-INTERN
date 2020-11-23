@@ -3,10 +3,7 @@ public class Solution1
     static long countSquare(int n)
     {
         long count = 0;
-        for (int i = 1;i<=n;i++)
-        {
-            count += i*i;
-        }
+        count = n * (n+1) * (2*n+1) /6;
       return count;  
     };
 	public static void main(String[] args) {
